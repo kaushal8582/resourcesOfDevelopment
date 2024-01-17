@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <main class="blur">
+        <form action="">
+            <div class="close">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+            <label for="" >Heading
+                <input class="heading" type="text" placeholder="Enter Heading">
+            </label>
+            <label for="">Category
+                <input class="category" type="text" placeholder="Enter Category">
+            </label>
+            <label for="">Description
+                <textarea class="desc" placeholder="Enter short description" ></textarea>
+            </label>
+            <label for="">Link
+                <input class="link" type="text" placeholder="Enter Link">
+            </label>
+            <button type="submit">Add Data</button>
+        </form>
+        <div id="top">
+            <div class="text ">
+                <h1>All Resource </h1>
+            </div>
+            <div class="search blur">
+                <div class="edit">
+                    <i class="fa-solid fa-pen-to-square "></i>
+                </div>
+                <input class="search" type="text" placeholder="Search here...">
+                <button class="search_btn" type="submit">Search</button>
+            </div>
+        </div>
+        <div id="data" class="none">
+            
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
